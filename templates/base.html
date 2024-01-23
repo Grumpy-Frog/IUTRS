@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IUT RS</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/achievements.css' %}">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
+
+    <!-- from essence code -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <!-- <title>Essence - Bootstrap 4 Template</title> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles/line-icons.css">
+    <link rel="stylesheet" href="/static/styles/owl.carousel.css">
+    <link rel="stylesheet" href="/static/styles/owl.theme.css">
+    <link rel="stylesheet" href="/static/styles/nivo-lightbox.css">
+    <link rel="stylesheet" href="/static/styles/magnific-popup.css">
+    <link rel="stylesheet" href="/static/styles/animate.css">
+    <link rel="stylesheet" href="/static/styles/color-switcher.css">
+    <link rel="stylesheet" href="/static/styles/menu_sideslide.css">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <link rel="stylesheet" href="/static/styles/responsive.css">
+
+
+</head>
+
+
+<body>
+
+<!-- <nav class="navbar navbar-expand-sm  mynav " role="navigation" id="navbar">
+    <div class="container">
+
+        <a class="navbar-brand mynav" href="{% url 'home' %}">IUT CS</a>
+
+        <ul class="nav navbar-nav navbar-right">
+
+
+                <li><a href="/executive_committee/" class="btn btn-simple">Executive Committee</a></li>
+                <li><a href="" class="btn btn-simple">Events</a></li>
+                <li><a href="/achievements" class="btn btn-simple">Achievements</a></li>
+                <li><a href="/activity" class="btn btn-simple">Activities</a></li>
+                <li><a href="/about" class="btn btn-simple">About</a></li>
+                <li><a href="/blogs" class="btn btn-simple">Blog</a></li>
+                <li><a href="/admin" class="btn btn-simple">Admin</a></li>
+                <li><a href="/admin_panel" class="btn btn-simple">Admin Panel</a></li>
+
+        </ul>
+    </div>
+</nav> -->
+
+
+<!-- Header Section Start -->
+<!-- body from essence code starts here -->
+<header id="slider-area">
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/home"><img src="/media/slider/logof.png" height="200"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="lni-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/home">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/our_projects">Our Projects</a>
+                    </li>
+
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/intra_events">Intra Events</a>
+                    </li>
+                    -->
+
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/activity">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/blogs">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link page-scroll" href="/executive_committee">Executive Committee</a>
+                  </li>
+                    <!--
+                    <li class="nav-item">
+                      <a class="nav-link page-scroll" href="/admin">Admin</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/leaderboard">Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/admin_panel">Admin Panel</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-sm  mynav " role="navigation" id="navbar">
+      <div class="container">
+  
+          <a class="navbar-brand mynav" href="{% url 'home' %}">IUT CS</a>
+  
+          <ul class="nav navbar-nav navbar-right">
+  
+  
+                  <li><a href="/executive_committee/" class="btn btn-simple">Executive Committee</a></li>
+                  <li><a href="" class="btn btn-simple">Events</a></li>
+                  <li><a href="/achievements" class="btn btn-simple">Achievements</a></li>
+                  <li><a href="/activity" class="btn btn-simple">Activities</a></li>
+                  <li><a href="/about" class="btn btn-simple">About</a></li>
+                  <li><a href="/blogs" class="btn btn-simple">Blog</a></li>
+                  <li><a href="/admin" class="btn btn-simple">Admin</a></li>
+                  <li><a href="/admin_panel" class="btn btn-simple">Admin Panel</a></li>
+  
+          </ul>
+      </div>
+  </nav> -->
+
+    <!-- Main Carousel Section -->
+
+
+    <div class="container mycontent">
+        {% block content %}
+
+
+            <!-- body from essence code ends here -->
+        {% endblock %}
+        <br><br>
+
+        {% load sweetify %}
+        {% sweetify %}
+    </div>
+
+    
+<footer>
+    <!-- Footer Area Start -->
+    <section class="footer-Content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+            <h3>IUTCS</h3>
+            <div class="textwidget">
+              <p>IUTCS continues to strive towards the development of the ICT Field and is fully dedicated with able minds to work on this goal.</p>
+            </div>
+            <ul class="footer-social">
+              <li><a class="facebook" href="https://www.facebook.com/IUTCS/"><i class="lni-facebook-filled"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/iutcs.official/"><i class="lni-twitter-filled"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/company/iutcs/"><i class="lni-linkedin-fill"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+            <div class="widget">
+              <h3 class="block-title"><b><u>Short Link</u></b></h3>
+              <ul class="menu">
+                <li><a href="/executive_committee">Executive Committee</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/achievements">Achievements</a></li>
+                <li><a href="/activity">Activities</a></li>
+                <li><a href="/blogs">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+            <div class="widget">
+              <h3 class="block-title"><b><u>Contact Us</u></b></h3>
+              <ul class="contact-footer">
+                <li>
+                  <strong>Address :</strong> <span>Islamic University of Technology, Boardbazar, Gazipur</span>
+                </li>
+                <li>
+                  <strong>Phone :</strong> <span>+880-1791-665-709</span>
+                </li>
+                <li>
+                  <strong>E-mail :</strong> <span><a href="#">arshadbakshi@iut-dhaka.edu</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+</body>
+</html>
