@@ -27,7 +27,7 @@ urlpatterns = [
                   path('blogs/', include('blogs.urls')),
                   path('achievements/', include('achievements.urls')),
                   path('activity/', include('activity.urls')),
-                  #path('our_projects/', include('our_projects.urls')),
+                  path('projects/', include('projects.urls')),
                   path('executive_committee/', views.ExecutiveCommittee.as_view(), name='executive_committee'),
                   path('about/', views.about.as_view(), name='about'),
                   path('admin_panel/', include('admin_panel.urls')),
