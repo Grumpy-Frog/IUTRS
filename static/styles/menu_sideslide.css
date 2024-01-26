@@ -5,10 +5,10 @@
 
 .menu-wrap a:hover,
 .menu-wrap a:focus{
-	color: #ac0126;
+	color: #f37e14;
 }
 .menu-wrap .navbar-nav li .active{
-	color: #ac0126; 
+	color: #f37e14; 
 }
 .menu-wrap .navbar-nav li .active:before{
 	width: 20px;
@@ -125,7 +125,7 @@ button:focus{
 	position: relative;
 }
 .icon-list a:before{
-	background: #ac0126;
+	background: #f37e14;
 	content: "";
 	height: 1px;
 	left: 0;
