@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load blog_extras %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="/static/styles/about.css">
+    
+    <br><br><br><br>
+    <div class="box">
+        <section class="overview-section">
+            <div class="overview-text">
+                <h1 class="title">{{ projects.title }}</h1>
+
+                    {{ projects.content|convert_markdown|safe }}
+
+
+            </div>
+            <!-- </div> -->
+        </section>
+
+
+    </div>
+{% endblock %}

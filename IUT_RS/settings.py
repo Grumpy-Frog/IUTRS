@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     "achievements",
     "admin_panel",
     "activity",
-    #"our_projects",
+    "projects",
     "sweetify",
     'bootstrap3',
     'whitenoise.runserver_nostatic',
