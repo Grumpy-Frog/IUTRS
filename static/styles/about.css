@@ -1,4 +1,10 @@
+jj {
+    background-color: #102128;
+    margin: 0;
+    padding: 0;
+}
 /* Style for the container */
+
 .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +118,8 @@ h2 {
 }
 /* Style for the contact section */
 .contact-section {
-    background-color: #f2f2f2;
+    background-color: #102128
+    ;
     padding: 20px;
     text-align: center;
 }
@@ -122,7 +129,8 @@ h2 {
     margin: 20px;
     padding: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #102128
+;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -146,8 +154,9 @@ h2 {
 /* CSS in an external stylesheet or within a <style> tag in your HTML */
 .edit-button {
     margin-top: 20px;
-    background-color: #ac012a; /* Blue background color */
-    color: #fff; /* White text color */
+    background-color: #f37e14; /* Blue background color */
+    color: #102128
+    ; /* White text color */
     border: none; /* Remove the default button border */
     border-radius: 8px; /* Add rounded corners */
     padding: 10px 20px; /* Add padding to the button */
@@ -162,7 +171,7 @@ h2 {
 
 /* Add a hover effect */
 .edit-button:hover {
-    background-color: #ac012a; /* Darker blue on hover */
+    background-color: #f37e14; /* Darker blue on hover */
 }
 .section2 {
     padding: 80px 0;
@@ -170,7 +179,8 @@ h2 {
   
   .section-header2 {
     margin-top: 60px;
-    color: #fff;
+    color: #102128
+    ;
     margin-bottom: 40px;
     text-align: left;
     position: relative;
