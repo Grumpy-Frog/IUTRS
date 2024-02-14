@@ -7,7 +7,7 @@
       ========================================================================== */
    body {
      font-family: 'Open Sans', sans-serif;
-     color: white;
+     color: black;
      font-size: 14px;
      font-weight: 400;
      background: #102128;
@@ -20,7 +20,7 @@
    
    p {
      font-size: 14px;
-     color: white;
+     color: black;
      line-height: 26px;
      font-family: 'Open Sans', sans-serif;
      margin-bottom: 0;
@@ -42,7 +42,7 @@
      font-family: 'Montserrat', sans-serif;
      font-size: 40px;
      font-weight: 700;
-     color: white;
+     color: black
    }
    
    ul {
@@ -97,7 +97,7 @@
      text-transform: uppercase;
      font-family: 'Montserrat', sans-serif;
      font-weight: 700;
-     color: white;
+     color: black;
      position: relative;
    }
    
@@ -115,7 +115,7 @@
    
    .section-header span {
      font-size: 60px;
-     color: white;
+     color: black;
      z-index: 2;
      font-family: 'Montserrat', sans-serif;
      font-weight: 500;
@@ -146,7 +146,7 @@
      text-transform: uppercase;
      font-family: 'Montserrat', sans-serif;
      font-weight: 700;
-     color: white;
+     color: black;
      position: relative;
      padding-bottom: 10px;
    }
@@ -479,187 +479,182 @@
    /* ==========================================================================
       Navbar Style
       ========================================================================== */
-   .bg-faded {
-     background-color: #102128;
-   }
-   
-   .mainmenu-area {
-     padding: 10px 0;
-     border: none;
-     margin: 0;
-     -webkit-transition: 0.6s;
-     -moz-transition: 0.6s;
-     transition: 0.6s;
-     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-     background-color: #102128#102128;
-   }
-   
-   .mainmenu-area .menu-button {
-     position: relative;
-     color: #263238;
-     line-height: 58px;
-     top: 0;
-     outline: none;
-   }
-   
-   .logo-menu a {
-     font-size: 20px;
-     color: white;
-   }
-   
-   .menu-bg {
-     background-color: #102128 !important;
-     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-     z-index: 999;
-     padding: 3px;
-   }
-   
-   .menu-bg .menu-button {
-     top: 0;
-   }
-   
-   .menu-bg .menu-button:hover {
-     cursor: pointer;
-     color: #f37e14;
-   }
-   
-   .menu-bg .logo-menu a {
-     color: #f37e14;
-   }
-   
-   .menu-bg .navbar-nav .nav-link {
-     color: #263238 !important;
-   }
-   
-   .menu-bg .navbar-nav .nav-link:hover {
-     color: #f37e14 !important;
-   }
-   
-   .menu-bg .navbar-nav .active {
-     color: #f37e14 !important;
-   }
-   
-   .menu-button:hover {
-     cursor: pointer;
-     opacity: #102128;
-   }
-   
-   .bg-white {
-     background-color: #102128 !important;
-     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-     z-index: 999;
-     padding: 5px;
-   }
-   
-   .bg-white .menu-button {
-     top: 0;
-   }
-   
-   .bg-white .menu-button:hover {
-     cursor: pointer;
-     color: #f37e14;
-   }
-   
-   .bg-white .logo-menu a {
-     color: #f37e14;
-   }
-   
-   .bg-white .navbar-nav .nav-link {
-     color: white !important;
-   }
-   
-   .bg-white .navbar-nav .nav-link:hover {
-     color: #f37e14 !important;
-   }
-   
-   .bg-white .navbar-nav .active {
-     color: #f37e14 !important;
-   }
-   
-   .close-button {
-     cursor: pointer;
-   }
-   
-   .navbar-expand-md .navbar-nav .nav-link {
-     color: white;
-     font-size: 14px;
-     padding: 5px 0px;
-     margin-left: 30px;
-     position: relative;
-   }
-   
-   .navbar-expand-md .navbar-nav .nav-link:before {
-     content: '';
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     width: 0;
-     height: 2px;
-     background: #f37e14;
-     -webkit-transition: 0.3s;
-     -moz-transition: 0.3s;
-     transition: 0.3s;
-   }
-   
-   .navbar-expand-md .navbar-nav .active::before,
-   .navbar-expand-md .navbar-nav .nav-link:hover::before {
-     width: 50%;
-   }
-   
-   .navbar-brand img {
-     max-width: 115px;
-   }
-   
-   .navbar-expand-md .navbar-nav .nav-link:focus,
-   .navbar-expand-md .navbar-nav .nav-link:hover,
-   .navbar-expand-md .navbar-nav .nav-link:hover:before {
-     color: #f37e14;
-   }
-   
-   .navbar-expand-md .navbar-nav .active > .nav-link,
-   .navbar-expand-md .navbar-nav .nav-link.active,
-   .navbar-expand-md .navbar-nav .nav-link.active:before,
-   .navbar-expand-md .navbar-nav .nav-link.open,
-   .navbar-expand-md .navbar-nav .open > .nav-link {
-     color: #f37e14;
-   }
-   
-   .navbar-expand-md .navbar-toggler {
-     background: #f37e14;
-     border-radius: 0px;
-     margin: 5px;
-     cursor: pointer;
-     float: right;
-   }
-   
-   .navbar-expand-md .navbar-toggler i {
-     color: #102128 !important;
-   }
-   
-   .mainmenu-area .navbar-nav .nav-link {
-     color: #263238 !important;
-   }
-   
-   .collapse.show {
-     background: #3e3a3a;
-     margin-bottom: 10px;
-     -webkit-transition: 0.6s;
-     -moz-transition: 0.6s;
-     transition: 0.6s;
-   }
-   
-   .menu-bg .collapse.show {
-     background: #102128;
-     margin-bottom: 10px;
-     -webkit-transition: 0.6s;
-     -moz-transition: 0.6s;
-     transition: 0.6s;
-   }
-   
-   .navbar-expand-md .navbar-toggler:active {
-     border: 1px solid #f37e14;
-     color: #f37e14;
-   }
+      .bg-faded {
+        background-color: #102128;
+    }
+    
+    .mainmenu-area {
+        padding: 10px 0;
+        border: none;
+        margin: 0;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        transition: 0.6s;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+        background-color: #102128;
+    }
+    
+    .mainmenu-area .menu-button {
+        position: relative;
+        color: #263238;
+        line-height: 58px;
+        top: 0;
+        outline: none;
+    }
+    
+    .logo-menu a {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .menu-bg,
+    .bg-white {
+        background-color: #f37e14 !important;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+        z-index: 999;
+        padding: 3px;
+    }
+    
+    .menu-bg .menu-button {
+        top: 0;
+    }
+    
+    .menu-bg .menu-button:hover {
+        cursor: pointer;
+        color: #f37e14;
+    }
+    
+    .menu-bg .logo-menu a {
+        color: #f37e14;
+    }
+    
+    .menu-bg .navbar-nav .nav-link {
+        color: black!important;
+    }
+    
+    .menu-bg .navbar-nav .nav-link:hover {
+        color: #f37e14 !important;
+    }
+    
+    .menu-bg .navbar-nav .active {
+        color: #f37e14 !important;
+    }
+    
+    .menu-button:hover {
+        cursor: pointer;
+        opacity: #102128;
+    }
+    
+    .bg-white .menu-button {
+        top: 0;
+    }
+    
+    .bg-white .menu-button:hover {
+        cursor: pointer;
+        color: #f37e14;
+    }
+    
+    .bg-white .logo-menu a {
+        color: #f37e14;
+    }
+    
+    .bg-white .navbar-nav .nav-link {
+        color: black !important;
+    }
+    
+    .bg-white .navbar-nav .nav-link:hover {
+        color: #f37e14 !important;
+    }
+    
+    .bg-white .navbar-nav .active {
+        color: #f37e14 !important;
+    }
+    
+    .close-button {
+        cursor: pointer;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: black;
+        font-size: 14px;
+        padding: 5px 0px;
+        margin-left: 30px;
+        position: relative;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #f37e14;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        transition: 0.3s;
+    }
+    
+    .navbar-expand-md .navbar-nav .active::before,
+    .navbar-expand-md .navbar-nav .nav-link:hover::before {
+        width: 50%;
+    }
+    
+    .navbar-brand img {
+        max-width: 115px;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link:focus,
+    .navbar-expand-md .navbar-nav .nav-link:hover,
+    .navbar-expand-md .navbar-nav .nav-link:hover:before {
+        color: #f37e14;
+    }
+    
+    .navbar-expand-md .navbar-nav .active > .nav-link,
+    .navbar-expand-md .navbar-nav .nav-link.active,
+    .navbar-expand-md .navbar-nav .nav-link.active:before,
+    .navbar-expand-md .navbar-nav .nav-link.open,
+    .navbar-expand-md .navbar-nav .open > .nav-link {
+        color: #f37e14;
+    }
+    
+    .navbar-expand-md .navbar-toggler {
+        background: #f37e14;
+        border-radius: 0px;
+        margin: 5px;
+        cursor: pointer;
+        float: right;
+    }
+    
+    .navbar-expand-md .navbar-toggler i {
+        color: #102128 !important;
+    }
+    
+    .mainmenu-area .navbar-nav .nav-link {
+        color: #263238 !important;
+    }
+    
+    .collapse.show {
+        background: #3e3a3a;
+        margin-bottom: 10px;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        transition: 0.6s;
+    }
+    
+    .menu-bg .collapse.show {
+        background: #102128;
+        margin-bottom: 10px;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        transition: 0.6s;
+    }
+    
+    .navbar-expand-md .navbar-toggler:active {
+        border: 1px solid #f37e14;
+        color: #f37e14;
+    }
+    
    
    /* ==========================================================================
       Hero Area
@@ -1272,7 +1267,7 @@
    
    .services-item .color-1 i {
      background: #FAE3E3;
-     color: #D82928 !important;
+     color: burlywood !important;
    }
    
    .services-item .color-2 i {
@@ -1311,7 +1306,7 @@
    }
    
    .services-item .services-content h3 a {
-     color: #272727;
+     color: white
    }
    
    .services-item .services-content h3 a:hover {
@@ -1319,7 +1314,7 @@
    }
    
    .services-item:hover {
-     box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
+     box-shadow: 0px 10px 50px 0px white;
    }
    
    .services-item:hover .icon i {
@@ -1384,7 +1379,7 @@
    }
    
    .featured-bg .featured-item h3 a {
-     color: #272727;
+     color: white;
    }
    
    .featured-bg .featured-item h3 a:hover {
@@ -1878,7 +1873,7 @@
    }
    
    #blog .blog-item-text h3 a {
-     color: #263238;
+     color: white;
    }
    
    #blog .blog-item-text h3 a:hover {
@@ -2246,7 +2241,7 @@
    }
    
    footer .footer-Content {
-     background-color: #102128;
+     background-color: #1e4555;
      padding: 60px 0;
      color: #546E7A;
    }
