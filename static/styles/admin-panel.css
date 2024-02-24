@@ -62,7 +62,7 @@ h11 {
 }
 .edit-button {
     margin-top: 20px;
-    background-color: #ac012a; /* Blue background color */
+    background-color: #f37e15; /* Blue background color */
     color: #fff; /* White text color */
     border: none; /* Remove the default button border */
     border-radius: 8px; /* Add rounded corners */
@@ -110,7 +110,7 @@ h11 {
 
 /* Add a hover effect */
 .edit-button:hover {
-    background-color: #ac012a; /* Darker blue on hover */
+    background-color: #f37e15; /* Darker blue on hover */
 }
 /* CSS for the title input field */
 .title-input {
@@ -149,7 +149,7 @@ h11 {
 
 /* Style the label to look like a button */
 .file-upload {
-    background-color: #ac012a; /* Blue background color */
+    background-color: #f37e15; /* Blue background color */
     color: #fff; /* White text color */
     border: none; /* Remove the default button border */
     border-radius: 8px; /* Add rounded corners */
